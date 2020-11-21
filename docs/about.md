@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there,
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Congratulations, you've found the secret habitat of Jingping, a friendly developer.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Jingping is a **Software Engineer at Google**, fixing bugs and sort.
 
+Before that, he was an **iOS engineer at SeaGroup** in Singapore, whereby he spent most of times on [AirPay](http://www.seagroup.com/products/airpay) and [Beetalk](https://www.beetalkmobile.com/). 
 
-[jekyll-organization]: https://github.com/jekyll
+While building stuff is all cool and fun, Jingping is also super passionate about **Machine Learning and Natural Language Process(NLP)**.  He encountered them during his time as an undergrad. He fell in love with them ever since. 
+
+During his spare time, Jingping loves reading detective novels, exploring nature via hiking and playing the chromatic harmonica.
+
+Feel free to ping him at elleryjiao on Gmail :)
