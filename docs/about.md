@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Hi there,
-
 Congratulations, you've found the secret habitat of Jingping, a friendly developer.
 
 Jingping is a **Software Engineer at Google**, fixing bugs and sort.
