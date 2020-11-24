@@ -2,8 +2,3 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
-_site/
-.sass-cache/
-docs/.jekyll-cache/
-docs/.jekyll-metadata/
