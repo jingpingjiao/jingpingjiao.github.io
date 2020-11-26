@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Flutter从零单排(2):Dart的基本语法"
+title: "Flutter从零单排(2):Dart语法"
 subtitle: "Learn Flutter(2): Dart basics"
 date: 2020-11-26
 author: "JJP"
-header-img: "img/post-bg-default.jpg"
+header-img: "img/posts/post-bg-mobile.jpg"
+header-mask: 0.3
 tags: [Flutter, Study]
 ---
 
@@ -245,4 +246,11 @@ T first<T>(List<T> ts) {
 ```
 
 {% endhighlight %}
+
+
+
+**Flutter从零单排合集**
+
+- [Flutter从零单排(1):环境搭建和第一个Flutter App]({% post_url 2020-11-24-flutter-1-env %})
+- [Flutter从零单排(2):Dart语法]({% post_url 2020-11-26-flutter-2-dart1 %})
 

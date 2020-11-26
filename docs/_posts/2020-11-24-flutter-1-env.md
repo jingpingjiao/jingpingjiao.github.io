@@ -4,7 +4,8 @@ title: "Flutter从零单排(1):环境搭建和第一个Flutter App"
 subtitle: "Learn Flutter(1): Environment Setup and first Flutter App"
 date: 2020-11-25
 author: "JJP"
-header-img: "img/post-bg-default.jpg"
+header-img: "img/posts/post-bg-mobile.jpg"
+header-mask: 0.3
 tags: [Flutter, Study]
 ---
 
@@ -69,4 +70,11 @@ tags: [Flutter, Study]
 <img src="/img/posts/post-flutter-helloworld.jpg" alt="drawing" width="250"/>
 
 好了, 这就是Flutter从零单排的第一期的内容了. 这一期我们简单的安装了环境, 跑通了一个HelloWorld. 下一期我们要一起学习Flutter的语言Dart, 同时把它和Objective-C和Swift做做对比.
+
+
+
+**Flutter从零单排合集**
+
+- [Flutter从零单排(1):环境搭建和第一个Flutter App]({% post_url 2020-11-24-flutter-1-env %})
+- [Flutter从零单排(2):Dart语法]({% post_url 2020-11-26-flutter-2-dart1 %})
 
