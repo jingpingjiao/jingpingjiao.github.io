@@ -15,11 +15,27 @@ tags: [Flutter, Study]
 
 大家好, 欢迎来到**Flutter从零单排**系列的第二期. 这期里我们来一起学习Dart. 
 
-我把Dart的学习分成了两部分, 在今天的第一部分我们看看基本语法, 第二篇学习Dart的高阶内容, 包含异步编程模型, Isolate和EventLoop. 篇幅有限, 这里我会把Dart基本语法里比较有趣的地方提出来. 其它的大家参考官网的[Language Tour](https://dart.dev/guides/language/language-tour). 
+我把Dart的学习分成了两部分, 在今天的第一部分我们看看基本语法, 第二篇学习Dart的高阶内容, 包含异步编程模型, Isolate和EventLoop. 
 
+## Dart Overview 
 
+Dart是Google开发的一门语言, 最开始想拿来代替JavaSc, 结果却因为Flutter的原因才获得了很多关注. 不管怎样, 作为一门新生的面向对象编程语言, 它有很多特点:
 
-## Dart 基础语法
+- **Type Safe**: 在Dart里, 虽然类型不是强制需要标识出来, 但是Dart是statically typed, 所以很多问题在编译时候暴露出来, Dart Runtime也会帮助我们进行type checking
+
+- **Highly Portable**: Dart可以编译成MachineCode, 也可以转译成JavaScript, 也可以在Dart VM的帮助下, 编程类似python的interpreted language. 这也是Dart支持hot-reload的原因. 
+
+- **Single Thread**: Dart是单线程语言. 通过EventLoop处理多任务. 虽然是单线程语言, Dart支持async/futures. 这个我们下期会单说.
+
+- **Memeory Managed by Gabage Collection**: 不用手动管理内存, 或者像Reference Counting那样需要注意循环引用
+
+- **Visibility by convention**: Dart没有Java那种private, public的标识符. By convention, private的method的名字前加"_"
+
+  
+
+## Dart 基础语法 Basics
+
+因为篇幅有限, 这里我会把Dart基本语法里比较有趣的地方提出来. 其它的大家参考官网的[Language Tour](https://dart.dev/guides/language/language-tour). 
 
 {% highlight dart %}
 
@@ -246,6 +262,19 @@ T first<T>(List<T> ts) {
 ```
 
 {% endhighlight %}
+
+
+
+好了, 这就是今天的学习笔记了. 下期我们来研究Dart的异步编程和内存模型. 
+
+
+
+*References*:
+
+- [dart.dev](https://dart.dev/)
+- [Introduction to Dart VM](https://mrale.ph/dartvm/)
+- [Dart (DartLang) Introduction: Getting started with Dart/Flutter](https://medium.com/run-dart/dart-dartlang-introduction-getting-started-with-dart-flutter-c5f59b8c456b)
+- [Understanding Dart](https://awaiscs.medium.com/understanding-dart-ffa4f975fddd)
 
 
 
