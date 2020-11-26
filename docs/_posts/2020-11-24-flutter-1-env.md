@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Flutter从零单排(1):环境搭建和第一个Flutter App"
-subtitle: "Flutter 0 to 1(1): Environment Setup and first Flutter App"
+subtitle: "Learn Flutter(1): Environment Setup and first Flutter App"
 date: 2020-11-25
 author: "JJP"
 header-img: "img/post-bg-default.jpg"
-tags: [iOS, Flutter]
+tags: [Flutter, Study]
 ---
 
 大家好, 欢迎来到**Flutter从零单排**系列的第一期. 
