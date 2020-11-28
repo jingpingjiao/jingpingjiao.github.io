@@ -276,10 +276,3 @@ T first<T>(List<T> ts) {
 - [Dart (DartLang) Introduction: Getting started with Dart/Flutter](https://medium.com/run-dart/dart-dartlang-introduction-getting-started-with-dart-flutter-c5f59b8c456b)
 - [Understanding Dart](https://awaiscs.medium.com/understanding-dart-ffa4f975fddd)
 
-
-
-**Flutter从零单排合集**
-
-- [Flutter从零单排(1):环境搭建和第一个Flutter App]({% post_url 2020-11-24-flutter-1-env %})
-- [Flutter从零单排(2):Dart语法]({% post_url 2020-11-26-flutter-2-dart1 %})
-
