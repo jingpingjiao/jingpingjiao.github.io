@@ -70,3 +70,4 @@ tags: [Flutter, Study]
 <img src="/img/posts/post-flutter-helloworld.jpg" alt="drawing" width="250"/>
 
 好了, 这就是Flutter从零单排的第一期的内容了. 这一期我们简单的安装了环境, 跑通了一个HelloWorld. 下一期我们要一起学习Flutter的语言Dart, 同时把它和Objective-C和Swift做做对比.
+
