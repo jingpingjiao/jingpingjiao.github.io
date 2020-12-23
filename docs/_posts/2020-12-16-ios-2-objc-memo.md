@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "iOS 面试百宝箱(2) Objective-C"
-subtitle: "iOS Interview(2):Objective-C"
+title: "iOS 面试百宝箱(2):内存管理"
+subtitle: "iOS Interview(2):Objective-C Memory Management"
 date: 2020-12-16
 author: "JJP"
 header-img: "img/posts/post-bg-interview.jpg"
