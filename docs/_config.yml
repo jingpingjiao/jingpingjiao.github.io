@@ -1,9 +1,9 @@
 # Site settings
-title: Jingping Jiao
+title: 老焦的博客
 SEOTitle: 焦竞平 | Jingping Blog
 header-img: img/home-bg.jpg
 email: elleryjiao@gmail.com
-description: "做个有故事的人 | Be a person with stories | 开发， 程序人生，技术"
+description: "做个有故事的人 | Be a person with stories | 开发，技术, 人生"
 keyword: "焦竞平, jingping, iOS, NLP, Blog, 博客, 个人网站, 互联网"
 url: "http://jingpingjiao.com/"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
