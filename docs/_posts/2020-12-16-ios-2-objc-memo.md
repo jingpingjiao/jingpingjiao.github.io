@@ -1,17 +1,13 @@
 ---
 layout: post
-title: "iOS 面试百宝箱(2):内存管理"
+title: "iOS 面试百宝箱(2):Objective-C内存管理"
 subtitle: "iOS Interview(2):Objective-C Memory Management"
 date: 2020-12-16
 author: "JJP"
-header-img: "img/posts/post-bg-interview.jpg"
+header-img: "img/posts/post-bg-code.jpg"
 header-mask: 0.3
 tags: [iOS]
 ---
-
-
-
-# iOS面试百宝箱(2):Objective-C 内存管理
 
 啦啦啦, 今天开始我们来复习iOS面试中重要的一块知识点:Objective-C(OC).  OC是iOS开发的大头, 虽然很多新的代码建议大家用Swift, 还是有很多很多legacy code还是用的OC, 特别是大厂的大App. 
 
