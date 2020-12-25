@@ -146,18 +146,7 @@ We can see from the `AutoReleasePoolPage` simplified definition below, each corr
   <img src="/img/posts/post-iosinter-autoreleasepage.png" alt="autoreleasepool"/>
 </figure>
 
-But a thread can have many `AutoReleasePoolPage` like below:
-
-{% highlight objc %}
-
-```
-@autoreleasepool{
-	@autoreleasepool{
-	}
-}
-```
-
-{% endhighlight %}
+But in case one `AutoReleasePoolPage` can not fit all the autorelease objects, there would be more `AutoReleasePoolPage.
 
 ##### Follow up 3: When will object be released in AutoReleasePool?
 
