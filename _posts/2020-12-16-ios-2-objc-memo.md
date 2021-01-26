@@ -21,6 +21,18 @@ tags: [iOS]
 
 ## Objective-C Memory Management Q&A
 
+#### Q: What are the different kinds of memory area in Objective-C (or in general)?
+
+**A:** Normally there are 5 different memory area:
+
+1. **Stack**: memory managed by compiler and created at runtime. Declared basic types such as integers/pointers are pushed to stack. Stack memory are popped when exit function.  Each thread has its own stack.
+2. **Heap**: memory managed by programmer and created at runtime. Objects are stored in heap and we keep pointers to them. Programmer needs to manually allocate heap memory and deallocate it if neccessary. Every thread shares one heap memory.
+3. **BSS**: memory managed by compiler and created at compile time. Declared static/global variables are stored here. The memory is created once during execution of the program. 
+4. **Constant area**: similar to BSS except all **initialized** constant are stored in this area. e.g. `static int a;` will be in BSS and `static int a =3;` is stored in constant area.
+5. **Code area **: stored compiled binary code. 
+
+
+
 #### Q: What is Reference Counting in Objective-C?
 
 **A:** Reference counting is a way of the system to manage memory, which is by keeping a number of times an object is referred to by other pointers. If the reference count of an object is zero, the system will release its memory at some point of time. 
