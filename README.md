@@ -6,10 +6,6 @@
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
 
-[User Manual 👉](_doc/Manual.md)
---------------------------------------------------
-
-### Getting Started (Version B)
 
 1. You will need [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) to use [Jekyll](https://jekyllrb.com/). Following [Using Jekyll with Bundler](https://jekyllrb.com/tutorials/using-jekyll-with-bundler/) to fullfill the enviromental requirement.
 
